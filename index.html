@@ -6,10 +6,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8055a0c4b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="./json/data.json" type="text/javascript"></script>
-    <script src="./js/main.js"></script>
+
 
 </head>
 
@@ -22,36 +23,15 @@
             </div>
 
             <ul class="navbar__menu">
-                <li>
-                    <a href="#">CAFE</a>
-                </li>
-                <li>
-                    <a href="#">세트상품</a>
-                </li>
-                <li>
-                    <a href="#">간식류</a>
-                </li>
-                <li>
-                    <a href="#">라면류</a>
-                </li>
-                <li>
-                    <a href="#">밥류</a>
-                </li>
-                <li>
-                    <a href="#">핫도그류</a>
-                </li>
-                <li>
-                    <a href="#">음료</a>
-                </li>
-                <li>
-                    <a href="#">토핑류</a>
-                </li>
-                <li>
-                    <a href="#">과자류</a>
-                </li>
-                <li>
-                    <a href="#">문의사항</a>
-                </li>
+                <li><span class="cafe">CAFE</span></li>
+                <li><span class="fries">간식류</span></li>
+                <li><span class="ramen">라면류</span></li>
+                <li><span class="rice">밥류</span></li>
+                <li><span class="hotdog">핫도그류</span></li>
+                <li><span class="beverage">음료</span></li>
+                <li><span class="topping">토핑류</span></li>
+                <li><span class="snack">과자류</span></li>
+                <li><span class="question">문의사항</span></li>
             </ul>
 
             <a href="#" class="navbar__toggleBtn">
@@ -62,14 +42,17 @@
     </header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <section id="main-body">
+                    <div class="item-list">
+
+                    </div>
                     
                 </section>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <aside id="cart">
-
+                    
                 </aside>
             </div>
         </div>
@@ -80,5 +63,5 @@
     </footer>
 
 </body>
-
+<script src="./js/main.js"></script>
 </html>

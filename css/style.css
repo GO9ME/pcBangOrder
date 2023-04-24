@@ -1,17 +1,30 @@
-:root{
-    --text-color : #f0f4f5;
-    --background-color : #263343;
-    --accent-color : #d49466;
+:root {
+    --text-color: #f0f4f5;
+    --background-color: #263343;
+    --accent-color: #d49466;
 }
+
 body {
-    margin : 20 20 ;
+    margin: 20px;
 }
+
 a {
     text-decoration: none;
 }
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+span {
+    color: white;
+}
+
 a:visited {
     color: var(--text-color);
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -37,38 +50,95 @@ a:visited {
 }
 
 .navbar__menu li:hover {
-    background-color:  var(--accent-color);
+    background-color: var(--accent-color);
     border-radius: 4px;
 }
+
 .navbar__toggleBtn {
     position: absolute;
     right: 32px;
     font-size: 24px;
-    color : var(--accent-color);
+    color: var(--accent-color);
 }
+
+#main-body {
+    margin-top: 20px;
+    height: 70vh;
+    overflow: auto;
+
+
+}
+
+#main-body .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#main-body .item-list>div{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#main-body .item-list>div:hover{
+    background-color: #e66262;
+}
+
+#cart {
+    margin-top: 20px;
+    background-color: blueviolet;
+    height: 70vh;
+}
+
+#payment {
+    background-color: rgb(226, 192, 43);
+    height: 15vh;
+    margin-top: 20px;
+
+}
+.item_name{
+    font-weight: 700;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.price{
+    font-weight: 300;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+
 
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        padding : 8px 24px;
+        padding: 8px 24px;
     }
+
     .navbar__menu {
         display: none;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
+
     .navbar__menu li {
         width: 100%;
         text-align: center;
     }
 
-    .navbar__toggleBtn{
+    .navbar__toggleBtn {
         display: block;
-         
     }
-    .navbar__menu.active{
+
+    .navbar__menu.active {
         display: flex;
     }
 }
