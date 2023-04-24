@@ -1,0 +1,262 @@
+Menu = {
+  "beverage": [
+    {
+      "name": "갈아만든배",
+      "imageExtension": "jpg",
+      "price": "1000"
+    },
+    {
+      "name": "닥터페퍼",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "데미소다",
+      "imageExtension": "jpg",
+      "price": "1000"
+    },
+    {
+      "name": "레쓰비",
+      "imageExtension": "jpg",
+      "price": "500"
+    },
+    {
+      "name": "마운틴듀",
+      "imageExtension": "jpg",
+      "price": "700"
+    },
+    {
+      "name": "맥콜",
+      "imageExtension": "jpg",
+      "price": "1000"
+    },
+    {
+      "name": "몬스터",
+      "imageExtension": "jpg",
+      "price": "2000"
+    },
+    {
+      "name": "몬스터_망고로코",
+      "imageExtension": "jpeg",
+      "price": "2500"
+    },
+    {
+      "name": "몬스터_시트라",
+      "imageExtension": "jpeg",
+      "price": "3000"
+    },
+    {
+      "name": "몬스터_울트라",
+      "imageExtension": "jpeg",
+      "price": "3500"
+    },
+    {
+      "name": "몬스터_파라다이스",
+      "imageExtension": "jpg",
+      "price": "4000"
+    },
+    {
+      "name": "밀키스",
+      "imageExtension": "jpg",
+      "price": "700"
+    },
+    {
+      "name": "바리스타라떼",
+      "imageExtension": "jpg",
+      "price": "2000"
+    },
+    {
+      "name": "베지밀",
+      "imageExtension": "jpg",
+      "price": "500"
+    },
+    {
+      "name": "블랙보리",
+      "imageExtension": "jpg",
+      "price": "1300"
+    },
+    {
+      "name": "블루하와이",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "비락식혜",
+      "imageExtension": "jpg",
+      "price": "2000"
+    },
+    {
+      "name": "비타오백",
+      "imageExtension": "jpg",
+      "price": "1000"
+    },
+    {
+      "name": "얼음컵",
+      "imageExtension": "png",
+      "price": "500"
+    },
+    {
+      "name": "옥수수수염차",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "웰치스딸기",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "웰치스청포도",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "웰치스포도",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "자몽소다",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "잔치집식혜",
+      "imageExtension": "jpg",
+      "price": "1000"
+    },
+    {
+      "name": "제로펩시",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "조지아",
+      "imageExtension": "jpeg",
+      "price": "1500"
+    },
+    {
+      "name": "조지아맥스",
+      "imageExtension": "jpg",
+      "price": "2000"
+    },
+    {
+      "name": "칠성사이다",
+      "imageExtension": "jpg",
+      "price": "1000"
+    },
+    {
+      "name": "코코팜복숭아",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "코코팜요구르트",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "코코팜포도",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "콜라",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "탄산사이다",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "탄산오렌지",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "탄산콜라",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "탄산파인애플",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "탄산포도",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "토레타",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "파워에이드",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "포도봉봉",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "포카리",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "피크닉",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "하늘보리",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "한라봉",
+      "imageExtension": "jpg",
+      "price": "2000"
+    },
+    {
+      "name": "핫식스",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "헛개차",
+      "imageExtension": "jpg",
+      "price": "2000"
+    },
+    {
+      "name": "환타오렌지",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "환타파인",
+      "imageExtension": "jpg",
+      "price": "1500"
+    },
+    {
+      "name": "환타포도",
+      "imageExtension": "jpg",
+      "price": "1500"
+    }
+  ],
+  "cafe": {},
+  "fries": {},
+  "hotdog": {},
+  "question": {},
+  "ramen": {},
+  "rice": {},
+  "snack": {},
+  "topping": {}
+}
